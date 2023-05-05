@@ -100,6 +100,12 @@ header {
     border-radius: 30px;
 }
 
+.dica li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
 .fone{
     background-color: #25D366;
     border-radius: 30px;
@@ -134,5 +140,8 @@ header {
 }
 
 .local{
-    border-radius: 30px;
+    max-width: fit-content;
+
+    margin-left: auto;
+    margin-right: auto;
 }
