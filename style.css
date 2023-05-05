@@ -47,9 +47,20 @@ header {
 }
 
 .pizzas{
+    margin-top: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    color:rgb(66, 66, 66);
+    text-align: center;
+}
+
+.pizzas a {
+    text-decoration: none;
+    color:rgb(66, 66, 66);
 }
 
 .sabor{
@@ -64,7 +75,7 @@ header {
 }
 
 .thumbnail{
-    width: fit-content;
+    width: 256px;
 }
 
 .info {
@@ -72,10 +83,21 @@ header {
 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .contato {
     max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dica{
+    text-align: center;
+    margin: 1em 20%;
+    padding: 1em;
+    background-color: antiquewhite;
+    border-radius: 30px;
 }
 
 .fone{
