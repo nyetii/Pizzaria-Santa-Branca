@@ -93,6 +93,7 @@ header {
 }
 
 .dica{
+    list-style: none;
     text-align: center;
     margin: 1em 20%;
     padding: 1em;
